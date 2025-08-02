@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Manos de San Andrés</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap">
+  <style>
+    body {
+      font-family: 'Josefin Sans', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fefaf6;
+      color: #333;
+    }
+    header {
+      background: #9c4e2f;
+      color: white;
+      padding: 1em 2em;
+      text-align: center;
+    }
+    nav {
+      background: #e07b39;
+      display: flex;
+      justify-content: center;
+      padding: 0.5em;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 1em;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .hero {
+      text-align: center;
+      padding: 2em;
+      background: url('https://images.unsplash.com/photo-1585829365295-e3e39b9ecb19?auto=format&fit=crop&w=1400&q=80') no-repeat center;
+      background-size: cover;
+      color: white;
+    }
+    .hero h1 {
+      font-size: 3em;
+      margin-bottom: 0.2em;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+    }
+    .hero p {
+      font-size: 1.2em;
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.6);
+    }
+    section {
+      padding: 2em;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5em;
+    }
+    .product {
+      background: white;
+      padding: 1em;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .product img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+    .product h3 {
+      margin: 0.5em 0;
+    }
+    .footer {
+      background: #9c4e2f;
+      color: white;
+      text-align: center;
+      padding: 1em;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Manos de San Andrés</h1>
+    <p>Artesanías hechas con tradición y corazón</p>
+  </header>
+
+  <nav>
+    <a href="#">Inicio</a>
+    <a href="#">Sobre Nosotros</a>
+    <a href="#">Tienda</a>
+    <a href="#">Galería</a>
+    <a href="#">Contacto</a>
+  </nav>
+
+  <div class="hero">
+    <h1>Bienvenidos</h1>
+    <p>Descubre la belleza artesanal de San Andrés, Estado de México</p>
+  </div>
+
+  <section>
+    <h2>Productos Destacados</h2>
+    <div class="products">
+      <div class="product">
+        <img src="https://images.unsplash.com/photo-1605276374104-deb9eb7f91f4?auto=format&fit=crop&w=600&q=80" alt="Jarrón de barro">
+        <h3>Jarrón de barro</h3>
+        <p>$350 MXN</p>
+      </div>
+      <div class="product">
+        <img src="https://images.unsplash.com/photo-1585421680435-4b25f2c85583?auto=format&fit=crop&w=600&q=80" alt="Bolsa tejida a mano">
+        <h3>Bolsa tejida a mano</h3>
+        <p>$480 MXN</p>
+      </div>
+      <div class="product">
+        <img src="https://images.unsplash.com/photo-1599940824399-b87987ceb772?auto=format&fit=crop&w=600&q=80" alt="Muñeca artesanal">
+        <h3>Muñeca artesanal</h3>
+        <p>$250 MXN</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    &copy; 2025 Manos de San Andrés - San Andrés, Estado de México. Todos los derechos reservados.
+  </footer>
+
+</body>
+</html>
